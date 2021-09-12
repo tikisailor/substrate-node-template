@@ -25,6 +25,7 @@ frame-support = {default-features = false, version = '3.0.0', git = 'https://git
 frame-system = {default-features = false, version = '3.0.0', git = 'https://github.com/paritytech/substrate.git', tag = 'monthly-2021-05'}
 frame-system-benchmarking = {default-features = false, optional = true, version = '3.0.0', git = 'https://github.com/paritytech/substrate.git', tag = 'monthly-2021-05'}
 frame-system-rpc-runtime-api = {default-features = false, version = '3.0.0', git = 'https://github.com/paritytech/substrate.git', tag = 'monthly-2021-05'}
+pallet-scheduler = { default-features = false, version = '3.0.0', git = 'https://github.com/paritytech/substrate.git', tag = 'monthly-2021-05'}
 pallet-aura = {default-features = false, version = '3.0.0', git = 'https://github.com/paritytech/substrate.git', tag = 'monthly-2021-05'}
 pallet-nicks = { default-features = false, version = '3.0.0', git = 'https://github.com/paritytech/substrate.git', tag = 'monthly-2021-05' }
 pallet-balances = {default-features = false, version = '3.0.0', git = 'https://github.com/paritytech/substrate.git', tag = 'monthly-2021-05'}
@@ -68,6 +69,7 @@ std = [
 	'frame-support/std',
 	'frame-system-rpc-runtime-api/std',
 	'frame-system/std',
+    'pallet-scheduler/std',
 	'pallet-aura/std',
     'pallet-nicks/std',
 	'pallet-balances/std',
